@@ -1,0 +1,39 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333333; /* dark gray background */ 
+    color: #ffffff; /* white text */
+}
+
+header {
+    background-color: #222222; /* really dark gray background */
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #00b2a9; /* teal links */
+}
+
+footer {
+    text-align: center;
+    background-color: #222222; /* real dark grey background */
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
