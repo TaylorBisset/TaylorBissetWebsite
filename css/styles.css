@@ -31,6 +31,11 @@ footer {
     width: 100%;
 }
 
+footer p:hover {
+    text-shadow: 0 0 20px rgba(0, 255, 255, 1);
+    transition: text-shadow 0.3s;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -44,11 +49,14 @@ nav ul li {
 
 nav ul li a {
     color: #cecece;
+    text-decoration: none;
     transition: color 0.2s;
 }
 
 nav ul li a:hover {
     color: #ffffff;
+    text-shadow: 0 0 20px rgba(0, 255, 255, 1);
+    transition: text-shadow 0.3s;
 }
 
 /* -- main content -- */
